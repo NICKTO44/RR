@@ -13,7 +13,7 @@ const playlist = [
   {
     id: 2,
     title: "Canción 2",
-    file: "/RR/audio/poema.mp3"  // ← Ruta completa con /RR/
+    file: "/RR/audio/morat.mp3"  // ← Ruta completa con /RR/
   },
   {
     id: 3,
