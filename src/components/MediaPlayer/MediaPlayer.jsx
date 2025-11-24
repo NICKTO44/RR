@@ -4,23 +4,23 @@ import { Play, Pause, Volume2, VolumeX, ChevronUp, ChevronDown, SkipBack, SkipFo
 
 const MediaPlayer = () => {
   // Lista de canciones - AGREGA TUS CANCIONES AQUÍ
-  const playlist = [
-    {
-      id: 1,
-      title: "Canción 1",
-      file: "/audio/melodia.mp3"
-    },
-    {
-      id: 2,
-      title: "Canción 2",
-      file: "/audio/poema.mp3"
-    },
-    {
-      id: 3,
-      title: "Canción 3",
-      file: "/audio/che.mp3"
-    }
-  ];
+const playlist = [
+  {
+    id: 1,
+    title: "Canción 1",
+    file: `${import.meta.env.BASE_URL}audio/melodia.mp3`  // ← Cambio aquí
+  },
+  {
+    id: 2,
+    title: "Canción 2",
+    file: `${import.meta.env.BASE_URL}audio/poema.mp3`  // ← Cambio aquí
+  },
+  {
+    id: 3,
+    title: "Canción 3",
+    file: `${import.meta.env.BASE_URL}audio/che.mp3`  // ← Cambio aquí
+  }
+];
 
   const audioRef = useRef(null);
   const progressBarRef = useRef(null);
