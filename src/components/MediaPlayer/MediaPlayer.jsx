@@ -8,17 +8,17 @@ const playlist = [
   {
     id: 1,
     title: "Canción 1",
-    file: `${import.meta.env.BASE_URL}audio/melodia.mp3`  // ← Cambio aquí
+    file: "/RR/audio/melodia.mp3"  // ← Ruta completa con /RR/
   },
   {
     id: 2,
     title: "Canción 2",
-    file: `${import.meta.env.BASE_URL}audio/poema.mp3`  // ← Cambio aquí
+    file: "/RR/audio/poema.mp3"  // ← Ruta completa con /RR/
   },
   {
     id: 3,
     title: "Canción 3",
-    file: `${import.meta.env.BASE_URL}audio/che.mp3`  // ← Cambio aquí
+    file: "/RR/audio/che.mp3"  // ← Ruta completa con /RR/
   }
 ];
 
