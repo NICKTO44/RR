@@ -7,18 +7,18 @@ const MediaPlayer = () => {
 const playlist = [
   {
     id: 1,
-    title: "Canción 1",
-    file: "/RR/audio/melodia.mp3"  // ← Ruta completa con /RR/
+    title: "1",
+    file: "/RR/audio/melodia.mp3"  
   },
   {
     id: 2,
-    title: "Canción 2",
-    file: "/RR/audio/morat.mp3"  // ← Ruta completa con /RR/
+    title: "2",
+    file: "/RR/audio/bandera.mp3"  
   },
   {
     id: 3,
-    title: "Canción 3",
-    file: "/RR/audio/che.mp3"  // ← Ruta completa con /RR/
+    title: "3",
+    file: "/RR/audio/morat.mp3"  
   }
 ];
 

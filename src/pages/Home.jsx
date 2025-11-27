@@ -11,6 +11,49 @@ const Home = () => {
 
   // Contenidos y colores para cada página
   const pages = [
+
+     {
+      text: `luna tras luna viendo y recordando su hermoso resplandor y  cada una de sus letras que me costo entender y nunca pense que lo usaria hoy , eres y seras una persona imborrable para mi, pero 
+      
+      Te digo adiós si acaso te quiero todavía
+Quizás no he de olvidarte… Pero te digo adiós
+No se si me quisiste… No se si te quería
+O tal vez nos quisimos demasiado los dos.
+
+Este cariño triste y apasionado y loco
+Me lo sembré en el alma para quererte a ti.
+No se si te amé mucho… No se si te amé poco,
+Pero sí sé que nunca volveré a amar así.
+
+Me queda tu sonrisa dormida en mi recuerdo
+Y el corazón me dice que no te olvidaré.
+Pero al quedarme solo… Sabiendo que te pierdo,
+Tal vez empiezo a amarte como jamás te amé.
+
+Te digo adiós y acaso con esta despedida
+Mi más hermoso sueño muere dentro de mí.
+Pero te digo adiós para toda la vida,
+Aunque toda la vida siga pensando en ti.`,
+      colors: {
+        primary: 'red',
+        gradient: 'from-red-500 via-rose-500 to-pink-500',
+        border: 'border-red-500/30',
+        glow: 'from-red-500/10 via-rose-500/5 to-pink-500/10',
+        glowOuter: 'from-red-500 via-rose-500 to-pink-500',
+        borderTop: 'via-red-400',
+        borderBottom: 'via-rose-400',
+        borderLeft: 'via-pink-400',
+        borderRight: 'via-red-400',
+        dot1: 'bg-red-400 shadow-red-400/50',
+        dot2: 'bg-rose-400 shadow-rose-400/50',
+        dot3: 'bg-pink-400 shadow-pink-400/50',
+        dot4: 'bg-red-400 shadow-red-400/50',
+        icon: 'from-red-500 to-rose-600',
+        textGradient: 'from-red-400 to-rose-400',
+        arrow: 'from-red-500 to-rose-500',
+        arrowHover: 'from-red-400 to-rose-400'
+      }
+    },
     {
       text: `y llego el día donde espesaste a  jugar  un juego donde cada uno cree ser el mejor
        pero al terminar este juego uno de ellos quedarra derrotado , pero que no te sorprenda eso el lo que buscas siempre ser el mejor a cualquier costo 
@@ -72,13 +115,18 @@ const Home = () => {
       }
     },
     {
-      text: `[AQUÍ VA TU TERCER TEXTO - Página 3 con colores ROJO/NEGRO/BLANCO]
+      text: `y que esperabas seguir asi nuestras vidas ,
+      como siempre lo dices ... ya no te importa ,
+       pues creo que es verdad desde hace hace tiempo
+       empesamos a sentir eso y creo ya debemos poner un pare a esto 
+       y que cada uno continue con lo suyo ,duele terminar lo que algun dia fue hermoso 
 
-Escribe aquí el contenido que deseas para la tercera página del mensaje.
-
-Este será el texto final con los colores rojos que especificaste.
-
-Puedes agregar tantos párrafos como necesites para tu mensaje final.`,
+       pero nuestras vidas sigue y lo siento por no poder acompañarte en tus siguentes años de vida
+       quiza pudo haber sido maravillo o quiza pudo haber sido un infierno 
+       pero ya no estamos para averiguarlo,
+       
+       espero que si si encuentres a alguien corra en la mis linea de tiempo y no encuentres una carga asi como 
+       siempre me lo hiciste ver ami ,gracias por hacerme una persona mas fuerte `,
       colors: {
         primary: 'red',
         gradient: 'from-red-500 via-rose-500 to-pink-500',
@@ -99,6 +147,7 @@ Puedes agregar tantos párrafos como necesites para tu mensaje final.`,
         arrowHover: 'from-red-400 to-rose-400'
       }
     }
+    
   ];
 
   const currentPageData = pages[currentPage];
@@ -168,7 +217,7 @@ Puedes agregar tantos párrafos como necesites para tu mensaje final.`,
                 </AnimatePresence>
                 
                 <h2 className="relative text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-r from-green-400 via-emerald-400 to-lime-400 bg-clip-text text-transparent text-center tracking-tight drop-shadow-2xl px-4">
-                  Sin Principio y Sin Final
+                  VIDAS COMPARTIDAS
                 </h2>
               </div>
             </motion.div>
